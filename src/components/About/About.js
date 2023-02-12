@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import Familiar from "./Familiar";
 
 function About() {
   return (
@@ -44,7 +45,10 @@ function About() {
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
-
+<h1 className="project-heading">
+          <strong className="purple">Things Which I am</strong> Familiar
+        </h1>
+        <Familiar/>
         <Github />
       </Container>
     </Container>
