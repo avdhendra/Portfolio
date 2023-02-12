@@ -27,7 +27,7 @@ function Projects() {
               isBlog={false}
               title="Meet Strangers"
               description="Personal Web Cam Chat Application Made up of Javascript ,HTML and CSS and Using Webrtc and Socket.IO in backend Have option to meet stranger and can share our screen and call to the other users "
-              ghLink="https://github.com/soumyajit4419/Chatify"
+              ghLink="https://github.com/avdhendra/Meet-Strangers"
              // demoLink="https://chatify-49.web.app/"
             />
           </Col>
@@ -38,7 +38,7 @@ function Projects() {
               isBlog={false}
               title="Go Chat"
               description="It is Web Chating App  using Nextjs Typescript in frontend and in backend GraphQl ,Prisma,Mongodb and SocketIO have option to create groups and chat mutiple people in open group "
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              ghLink="https://github.com/avdhendra/GoChat"
             //  demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
@@ -49,7 +49,7 @@ function Projects() {
               isBlog={false}
               title="Inspire"
               description="It is Social Media App using Reactjs,Material UI and Redux for state management and In backend Express.js for url mappping Multer for image storing in file system and mongodb for database and use jwt token for authentication"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
+              ghLink="https://github.com/avdhendra/Inspire"
              // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
@@ -60,7 +60,7 @@ function Projects() {
               isBlog={false}
               title="Movietic"
               description="It is movie searching website which is built with reactjs material ui and redux for state management use TMDB Api for fetching data of Movie and search according to the Categories have features like watching movie trailers and save favorite movies and can call Alan ai for search movie for You"
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              ghLink="https://github.com/avdhendra/MovieTic"
             //  demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
@@ -71,7 +71,7 @@ function Projects() {
               isBlog={false}
               title="Reddit Clone"
               description="It is community based social network which is built with Nextjs Typescript ChakraUI Recoil for state management and for backend use Firebase Realtime database for storing images and firestore for saving data about user and communities"
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              ghLink="https://github.com/avdhendra/reddit"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
@@ -82,7 +82,7 @@ function Projects() {
               isBlog={false}
               title="Sharepic"
               description="It is Photo Sharing Website user user can post their photos and can download and save the image for their use and can get likes for their photos it is built on reactjs tailwind and in backend used sanity"
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              ghLink="https://github.com/avdhendra/SharePic"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
@@ -102,7 +102,7 @@ function Projects() {
               isBlog={false}
               title="Food Space"
               description="It is Food Delivery App that is Build on Java in Android Studio have backend integrated with Firebase firestore and Firebase database"
-              ghLink="https://github.com/soumyajit4419/Chatify"
+              ghLink="https://github.com/avdhendra/FoodSpace"
              // demoLink="https://chatify-49.web.app/"
             />
           </Col>
