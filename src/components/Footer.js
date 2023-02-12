@@ -5,6 +5,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
+import{SiCodechef,SiLeetcode} from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
@@ -23,7 +24,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
+                href="https://github.com/avdhendra"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -34,12 +35,33 @@ function Footer() {
          
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
+                href="https://www.linkedin.com/in/avdhendra-singh-6906791b1/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
+              </a>
+            </li>
+             <li className="social-icons">
+              <a
+                href="https://leetcode.com/avdhendra/"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <SiLeetcode />
+              </a>
+            </li>
+            
+             <li className="social-icons">
+              <a
+                href="https://www.codechef.com/users/avdhendrasingh"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <SiCodechef />
               </a>
             </li>
           </ul>

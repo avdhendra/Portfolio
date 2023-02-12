@@ -8,7 +8,7 @@ import inspire from "../../Assets/Projects/m3.png";
 import movietic from "../../Assets/Projects/m4.png";
 import redditClone from "../../Assets/Projects/m5.png";
 import sharepic from "../../Assets/Projects/m6.png";
-
+import FoodSpace from "../../Assets/Projects/m7.png"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -18,7 +18,7 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked on recently. based on Web Development
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -28,7 +28,7 @@ function Projects() {
               title="Meet Strangers"
               description="Personal Web Cam Chat Application Made up of Javascript ,HTML and CSS and Using Webrtc and Socket.IO in backend Have option to meet stranger and can share our screen and call to the other users "
               ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+             // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
@@ -39,7 +39,7 @@ function Projects() {
               title="Go Chat"
               description="It is Web Chating App  using Nextjs Typescript in frontend and in backend GraphQl ,Prisma,Mongodb and SocketIO have option to create groups and chat mutiple people in open group "
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+            //  demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
@@ -50,7 +50,7 @@ function Projects() {
               title="Inspire"
               description="It is Social Media App using Reactjs,Material UI and Redux for state management and In backend Express.js for url mappping Multer for image storing in file system and mongodb for database and use jwt token for authentication"
               ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+             // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
@@ -58,10 +58,10 @@ function Projects() {
             <ProjectCard
               imgPath={movietic}
               isBlog={false}
-              title="movietic"
+              title="Movietic"
               description="It is movie searching website which is built with reactjs material ui and redux for state management use TMDB Api for fetching data of Movie and search according to the Categories have features like watching movie trailers and save favorite movies and can call Alan ai for search movie for You"
               ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+            //  demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
@@ -80,13 +80,34 @@ function Projects() {
             <ProjectCard
               imgPath={sharepic}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              title="Sharepic"
+              description="It is Photo Sharing Website user user can post their photos and can download and save the image for their use and can get likes for their photos it is built on reactjs tailwind and in backend used sanity"
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
+        </Row>
+      </Container>
+       <Container>
+        <h1 className="project-heading">
+          My Recent <strong className="purple">Works </strong>
+        </h1>
+        <p style={{ color: "white" }}>
+          Here are a few projects I've worked on recently. based on Android Development
+        </p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={FoodSpace}
+              isBlog={false}
+              title="Food Space"
+              description="It is Food Delivery App that is Build on Java in Android Studio have backend integrated with Firebase firestore and Firebase database"
+              ghLink="https://github.com/soumyajit4419/Chatify"
+             // demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
+
+         
         </Row>
       </Container>
     </Container>

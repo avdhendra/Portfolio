@@ -15,6 +15,7 @@ import {
   SiFirebase,
   SiNextdotjs,
   SiMysql,
+  SiJest
 } from "react-icons/si";
 
 function Techstack() {
@@ -54,7 +55,9 @@ function Techstack() {
         <SiMysql />
       </Col>
      
-     
+     <Col xs={4} md={2} className="tech-icons">
+        <SiJest />
+      </Col>
     </Row>
   );
 }
