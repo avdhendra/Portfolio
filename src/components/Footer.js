@@ -2,8 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+
 } from "react-icons/ai";
 import{SiCodechef,SiLeetcode} from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
